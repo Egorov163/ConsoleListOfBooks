@@ -14,6 +14,8 @@ namespace ConsoleListOfBooksCMD
             var name = Console.ReadLine();
 
             var userController = new UserController(name);
+            userController.Save();
+            userController.GetUser();
         }
     }
 }
